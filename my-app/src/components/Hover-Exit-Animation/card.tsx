@@ -21,7 +21,7 @@ export default function Card() {
           A collection of beautiful UI Components, lets get on with it
         </p>
 
-        <div className="flex items-center justify-center">
+        <div className="flex flex-col items-center justify-center">
           <button
             className={cn(
               "flex items-center gap-1  text-[10px] px-2 py-1 ",
@@ -37,6 +37,8 @@ export default function Card() {
             />
             Kaizen <IconX className="h-3 w-3 text-neutral-400" />
           </button>
+
+          <div className="bg-red-500 flex-1 mt-4"> hi</div>
         </div>
       </div>
     </div>
